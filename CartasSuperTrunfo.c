@@ -57,7 +57,8 @@ scanf("%d", &pontosTuristicos1);
 
 
  // Área para entrada de dados Carta 2
- // Necessário corrigir a exibição do scanf para o estado2, pois o buffer do teclado ainda contém o caractere de nova linha (\n) da entrada anterior. Para resolver isso, podemos adicionar um espaço antes do %c no scanf para consumir qualquer espaço em branco restante no buffer. Assim, a linha correta seria:
+ // Necessário corrigir a exibição do scanf para o estado2, pois o buffer do teclado ainda contém o caractere de nova linha (\n) da entrada anterior. Para resolver isso, podemos adicionar um espaço antes do %c no scanf para consumir qualquer espaço em branco restante no buffer.
+ // O erro para o erro foi corrigido ms gerou outro bug, pois tem uma linha em branco entre Estado da carta 2 e código da carta 2
 printf("\nDigite as informações da carta 2");
 printf("\nEstado (A-H): ");
 scanf(" %c", &estado2);
